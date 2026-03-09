@@ -329,9 +329,9 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## 👤 Author
 
-**Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile)
+**La Quang Ninh**
+- GitHub: [@laninh-tech](https://github.com/laninh-tech)
+- Portfolio: [laninh-tech](https://github.com/laninh-tech)
 
 ---
 

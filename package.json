@@ -4,7 +4,7 @@
   "version": "2.4.1",
   "private": true,
   "type": "module",
-  "author": "Your Name",
+  "author": "La Quang Ninh <laninh.tech@gmail.com>",
   "license": "MIT",
   "keywords": [
     "yolov8",

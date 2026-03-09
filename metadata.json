@@ -2,11 +2,11 @@
   "name": "Edge-AI Security Dashboard",
   "version": "2.4.1",
   "description": "Real-time smart security monitoring dashboard using YOLOv8, OpenCV, and TensorRT for intelligent object detection and tracking",
-  "author": "Your Name",
+  "author": "La Quang Ninh",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/edge-ai-security-dashboard"
+    "url": "https://github.com/laninh-tech/edge-ai-security-dashboard"
   },
   "keywords": [
     "yolov8",
