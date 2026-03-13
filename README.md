@@ -1,46 +1,34 @@
-# Edge AI Security Dashboard
+# Edge AI Security Monitoring System
 
-Real-time smart security monitoring platform powered by YOLOv8, OpenCV, and a modern TypeScript dashboard.
+A real-time computer vision system for security monitoring with edge AI inference and interactive dashboarding.
 
-## Overview
-This project combines computer vision inference with a responsive web interface to monitor camera streams, detect events, and track system performance in near real time.
+## Key Features
+- Real-time object detection with YOLOv8
+- Camera and video monitoring workflow
+- Event-oriented dashboard and telemetry tracking
+- Suitable baseline for edge deployment scenarios
 
-## Key features
-- Real-time object detection with YOLOv8.
-- Live camera/video feed monitoring.
-- Event logs and alert-oriented workflows.
-- Performance telemetry visualization (FPS and system metrics).
-- Frontend dashboard with React + TypeScript.
+## Tech Stack
+- Computer Vision: YOLOv8, OpenCV
+- Backend: Python service layer
+- Frontend: React, TypeScript, Vite
+- Deployment: Local multi-service runtime
 
-## Tech stack
-- Frontend: React, TypeScript, Vite, Tailwind CSS
-- Backend: Python (Flask-based inference service), Node/TypeScript server
-- AI/CV: YOLOv8, OpenCV
+## Methodology
+- Ingest live or recorded video streams
+- Run object detection and event processing
+- Surface monitoring data through a dashboard
+- Review performance metrics and event traces
 
-## Repository highlights
-- [QUICKSTART.md](./QUICKSTART.md): fast local setup guide.
-- [ARCHITECTURE.md](./ARCHITECTURE.md): high-level architecture and module boundaries.
-- [SECURITY.md](./SECURITY.md): security policy and reporting.
-- [CONTRIBUTING.md](./CONTRIBUTING.md): contribution workflow.
+## Results
+- Built a working edge AI monitoring prototype
+- Combined inference and UI into a clear demonstrable system
+- Strengthened portfolio quality for AI + software integration
 
-## Quick start
+## Installation
 ```bash
-git clone https://github.com/laninh-tech/edge-ai-security-dashboard.git
-cd edge-ai-security-dashboard
+git clone https://github.com/laninh-tech/Edge-AI-Security-Monitoring-System.git
+cd Edge-AI-Security-Monitoring-System
 npm install
 pip install -r requirements.txt
-# Option A: one-command startup (Windows)
-run_all.bat
-# Option B: run frontend and backend separately
-npm run dev
-python python_server.py
 ```
-
-## Suggested production direction
-- Add authentication and role-based access.
-- Move from local file logs to centralized event storage.
-- Containerize inference and UI services for cloud/edge deployment.
-
-## Author
-La Quang Ninh  
-GitHub: https://github.com/laninh-tech
